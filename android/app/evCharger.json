@@ -1,0 +1,52 @@
+{
+	"chargers": [
+		{
+			"name": "EV Franchises",
+			"id": "a001",
+			"address": "Koramangala, Bengaluru, Karnataka ", 
+			"distance": "2102",
+			"distance_metrics": "metres",
+			"latitude": "12.93728924092604", 
+			"longitude": "77.61997330234742",
+			"connector_types": ["lvl1dc-2", "lvl2dc-1", "normalac-1"]
+		},
+        {
+			"name": "Tata Power Charging Station",
+			"id": "a002",
+			"address": "Kanakapura Rd, opp. BLOCK-F, Bengaluru, Karnataka 560078",
+			"distance": "2102",
+			"distance_metrics": "metres",
+			"latitude": "12.905188979076042",
+			"longitude": "77.57293986506514",
+			"connector_types": ["lvl1dc-2", "lvl2dc-1", "normalac-1","lvl1ac-1","lvl2ac-1"]
+		},
+        {
+			"name": "SUN Mobility Charging Station",
+			"id": "a003",
+			"address": "80 Feet Rd,Koramangala, Bengaluru, Karnataka",
+			"distance": "2102",
+			"latitude": "12.945968572999934",
+			"longitude": "77.61840135913963",
+			"connector_types": ["lvl1dc-2", "lvl2dc-1", "lvl1ac-1","lvl2ac-1"]
+		},
+        {
+			"name": "Green Tech Charging Station",
+			"id": "a004",
+			"address": "Kamakshipalya, Bengaluru, Karnataka",
+			"distance": "2102",
+			"distance_metrics": "metres",
+			"latitude": "12.98850431928715",
+			"longitude": "77.5382495198941",
+			"connector_types": ["lvl1dc-2", "lvl2dc-1"]
+		},{
+			"name": "MOJO GREEN Charging Station",
+            "id":"a005",
+			"address": "Bommanahalli, Bengaluru, Karnataka",
+			"distance": "2102",
+			"distance_metrics": "metres",
+			"latitude": "12.90444425612194",
+			"longitude": "77.6304612569505",
+			"connector_types": ["lvl1dc-2", "lvl2dc-1", "normalac-1","lvl1ac-1","lvl2ac-1"]
+		}
+	]
+}

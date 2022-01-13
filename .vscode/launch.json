@@ -5,25 +5,25 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug Windows Hermes - Experimental",
+            "name": "Debug Android",
             "request": "launch",
-            "type": "reactnativedirect",
+            "type": "reactnative",
             "cwd": "${workspaceFolder}",
-            "platform": "windows"
+            "platform": "android"
         },
         {
-            "name": "Debug Windows Hermes - Experimental",
+            "name": "Debug Android Hermes - Experimental",
             "request": "launch",
             "type": "reactnativedirect",
             "cwd": "${workspaceFolder}",
-            "platform": "windows"
+            "platform": "android"
         },
         {
-            "name": "Debug Windows Hermes - Experimental",
-            "request": "launch",
-            "type": "reactnativedirect",
+            "name": "Attach to packager",
             "cwd": "${workspaceFolder}",
-            "platform": "windows"
-        },
+            "type": "reactnative",
+            "request": "attach",
+            "isDynamic": true
+        }
     ]
 }

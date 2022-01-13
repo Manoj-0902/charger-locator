@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, SafeAreaView, Button, Image } from "react-native";
 import Geolocation from "react-native-geolocation-service";
 import { PermissionsAndroid } from "react-native";
 
@@ -11,8 +11,8 @@ class GeoLoc extends React.Component {
       const granted = await PermissionsAndroid.request(
         PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
         {
-          title: "Example App",
-          message: "Example App access to your location ",
+          title: "EV charger App",
+          message: "EV charger App access to your location ",
         }
       );
       if (granted === PermissionsAndroid.RESULTS.GRANTED) {
